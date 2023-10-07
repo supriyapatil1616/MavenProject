@@ -10,7 +10,7 @@ public class PriorityExample {
     public void testZ(){
         System.out.println("z");
     }
-    @Test(priority=-5)
+    @Test(priority=5)
     public void testM(){
         System.out.println("M");
     }
