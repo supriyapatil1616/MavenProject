@@ -14,6 +14,6 @@ public class HardAssertExample {
         driver.manage().window().maximize();
 
         Assert.assertEquals(driver.getTitle(),"Rediffmail","Title should be match");
-        driver.close();
+        
     }
 }
