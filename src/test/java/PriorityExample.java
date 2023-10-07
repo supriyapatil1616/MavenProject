@@ -11,8 +11,8 @@ public class PriorityExample {
         System.out.println("z");
     }
     @Test(priority=5)
-    public void testM(){
-        System.out.println("M");
+    public void testN(){
+        System.out.println("N");
     }
     @Test
     public void testD(){
